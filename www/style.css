@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0 0 0 0;
+	font-size: medium;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	/* font-family: Copperplate Gothic bold; */
+	color: #000000;
+      background-color: #FBFEFA;
+      text-align:center;
+      width: 100%;
+}
+
+#top2{
+      display: inline-block;
+      position: fixed;
+      top: 0;
+      left: 5%;
+      width: 90%;
+}
+
+#header {
+      width: 90%;
+      display: inline-block;
+      border: 3px solid black;
+      font-size:3em;
+	font-weight:bold;
+}
+
+#working {
+      border: 3px solid red;
+      color: red;
+      font-size: 0.5em;
+      display:none;
+}
+
+#content {
+      margin: 1em;
+      text-align:left;
+}
+
+th {
+     border-bottom:1px solid black;
+     width: 10em;
+}
+
+#footer {
+      text-align:left;
+      position:fixed;
+      bottom:0;
+      left: 5%;
+      width: 90%;
+      border: 3px solid black;
+      font-size:1em;
+	font-weight:normal;
+}
